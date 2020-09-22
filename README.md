@@ -27,6 +27,11 @@ The original dataset contained some reviews in other languages including Spanish
 
 The LSTM neural network had the best performance on accuracy and AUC score followed by the Bernoulli Naive Bayes and the simple RNN neural network. 
 
+
+![](images/accuracy_comp_models.png)
+![](images/AUC_comp_models.png)
+
+
 <h2> Conclusions </h2>
 During preprocessing, I discovered that the dataset had reviews in different languages including Spanish and Arabic and removing these resulted in a smaller corpus to train on. Despite the commendable performance of the LSTM, the simple RNN perhaps could benefit from having a larger training corpus in order to improve performance. 
 
