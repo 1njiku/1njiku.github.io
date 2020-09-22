@@ -28,8 +28,8 @@ The original dataset contained some reviews in other languages including Spanish
 The LSTM neural network had the best performance on accuracy and AUC score followed by the Bernoulli Naive Bayes and the simple RNN neural network. 
 
 
-![](images/accuracy_comp_models.png)
-![](images/AUC_comp_models.png)
+![](https://github.com/1njiku/1njiku.github.io/blob/master/images/AUC_comp_models.png)
+![](https://github.com/1njiku/1njiku.github.io/blob/master/images/AUC_comp_models.png)
 
 
 <h2> Conclusions </h2>
