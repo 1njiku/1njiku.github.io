@@ -1,4 +1,4 @@
-# Project Two: Springboard Capstone 2
+# <a href='https://github.com/1njiku/SB-Capstone2/blob/master/Project-Proposal%20.pdf'>Project Two: Springboard Capstone 2</a>
 
 <h2> Introduction </h2>
   Detecting sentiment from a piece of text is a key part of Natural Language Processing (NLP). It is a foundational part of recommender systems which track a user’s affinities and aversions with the aim of matching the user with a product/ service that’s helpful for them.
