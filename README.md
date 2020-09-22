@@ -5,7 +5,7 @@
   
   Most work on sentiment analysis has been done on short-form text data such as those derived from micro-blogging social media sites. Because of the succinct nature of these social media posts, it is perhaps easier to glean points of view than from longer pieces of text. 
   
-  I would therefore like to perform sentiment parsing of long-form text in the form of book reviews. The aim is to see if different models are as capable in situations where the user leaves a more verbose review. Book cataloging websites might benefit from insights gained from this project in order to improve their recommendation system. If longer reviews do result in less reliable recommendations the website might decide to implement a word limit on reviews.
+  Spurred by my penchant for learning new languages, I decided to perform sentiment parsing of long-form text in the form of book reviews. The aim was to see if different models are as capable in situations where the user leaves a more verbose review. Book cataloging websites might benefit from insights gained from this project in order to improve their recommendation system. If longer reviews do result in less reliable recommendations the website might decide to implement a word limit on reviews.
 
 <h2> Data Sources </h2>
 <li>List of book reviews rated 1 (negative) or 2 (positive). csv file obtained from <a href='https://www.kaggle.com/rakeshkakati/book-reviews'>Kaggle</a>: 2 columns, about 2,800 rows.</li>
@@ -33,7 +33,7 @@ The LSTM neural network had the best performance on accuracy and AUC score follo
 
 
 <h2> Conclusions </h2>
-During preprocessing, I discovered that the dataset had reviews in different languages including Spanish and Arabic and removing these resulted in a smaller corpus to train on. Despite the commendable performance of the LSTM, the simple RNN perhaps could benefit from having a larger training corpus in order to improve performance. 
+Removing non-English text from my dataset resulted in a smaller corpus to train on than I intended therefore it's impossible to make a definitive answer to my original hypothesis. Despite the commendable performance of the LSTM, the simple RNN perhaps could benefit from having a larger training corpus in order to improve performance. 
 
 <h2>Future Scope </h2>
 <li> Adding more English language text to train the models</li>
