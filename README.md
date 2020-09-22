@@ -1,4 +1,4 @@
-# <a href='https://github.com/1njiku/SB-Capstone2/blob/master/Project-Proposal%20.pdf'>Project Two: Springboard Capstone 2</a>
+# <a href='https://github.com/1njiku/SB-Capstone2/blob/master/Project-Proposal%20.pdf'>Springboard Capstone</a>
 
 <h2> Introduction </h2>
   Detecting sentiment from a piece of text is a key part of Natural Language Processing (NLP). It is a foundational part of recommender systems which track a user’s affinities and aversions with the aim of matching the user with a product/ service that’s helpful for them.
@@ -18,7 +18,7 @@
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/Capstone%202%20Milestone%20Report%20.pdf'>Milestone Report</a></li>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/b.%20Bernoulli_Naive_Bayes.ipynb'>Bernoulli Naive Bayes Model</a></li>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/c.LSTM.ipynb'>Long Short Term Memory (LSTM) Neural Network</a></li>
-  <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/d.RNN.ipynb'>Recurrent Neural Network</a></li>
+  <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/d.RNN.ipynb'>Simple Recurrent Neural Network (simple RNN)</a></li>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/Capstone%202%20Slides%20.pdf'>TL;DR Slides</a></li>
 </ol>
 
@@ -37,3 +37,10 @@ Removing non-English text from my dataset resulted in a smaller corpus to train 
 
 <h2>Future Scope </h2>
 <li> Adding more English language text to train the models</li>
+
+
+
+# Greetings Earth-form! I come in peace :space_invader:
+<h2> Introduction </h2>
+My name is Teresiah (pronounced te-re-see-ah) and I am a recent convert to the world of data. I like to think my conversion began late last year but really I've been tinkering with data (via Excel spreadsheets) since arount 2016 during my previous career as a pharmacist. Since then, I've made the plunge into a full career pivot and will use this space to document my journey. 
+Karibuni :smile:
