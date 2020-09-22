@@ -29,7 +29,7 @@ The LSTM neural network had the best performance on accuracy and AUC score follo
 
 
 ![](https://github.com/1njiku/1njiku.github.io/blob/master/images/AUC_comp_models.png)
-![](https://github.com/1njiku/1njiku.github.io/blob/master/images/AUC_comp_models.png)
+![](https://github.com/1njiku/1njiku.github.io/blob/master/images/accuracy_comp_models.png)
 
 
 <h2> Conclusions </h2>
