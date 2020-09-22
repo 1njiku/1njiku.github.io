@@ -40,7 +40,7 @@ Removing non-English text from my dataset resulted in a smaller corpus to train 
 
 
 
-# Greetings Earth-form! I come in peace :space_invader:
+# Greetings Earthling! I come in peace :space_invader:
 <h3> Introduction </h3>
 My name is Teresiah (pronounced te-re-see-ah) and I am a recent convert to the world of data. I like to think my conversion began late last year but really I've been tinkering with data (via Excel spreadsheets) since arount 2016 during my previous career as a pharmacist. Since then, I've made the plunge into a full career pivot and will use this space to document my journey. 
   Karibuni :smile:
