@@ -1,3 +1,14 @@
+# Debiasing Biased Data
+
+<h3> Introduction </h3>
+You've probably seen the news. <a href='https://edition.cnn.com/2020/08/23/tech/algorithms-bias-inequality-intl-gbr/index.html'>Tech</a> <a href='https://edition.cnn.com/2020/09/21/tech/twitter-racial-bias-preview/index.html'>has</a> <a href='https://www.nytimes.com/2019/11/15/technology/algorithmic-ai-bias.html'>a</a> <a href='https://www.wgu.edu/blog/women-tech-addressing-gender-bias2002.html'>bias</a> <a href='https://www.forbes.com/sites/marenbannon/2019/04/10/the-biggest-bias-in-tech-that-no-one-talks-about/'>problem</a>.  
+
+
+
+
+
+
+
 # <a href='https://github.com/1njiku/SB-Capstone2/blob/master/Project-Proposal%20.pdf'>Capstone Project</a>
 
 <h3> Introduction </h3>
