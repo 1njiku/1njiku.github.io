@@ -1,11 +1,16 @@
 # Debiasing Biased Data
 
 <h3> Introduction </h3>
-You've probably seen the news. <a href='https://edition.cnn.com/2020/08/23/tech/algorithms-bias-inequality-intl-gbr/index.html'>Tech</a> <a href='https://edition.cnn.com/2020/09/21/tech/twitter-racial-bias-preview/index.html'>has</a> <a href='https://www.nytimes.com/2019/11/15/technology/algorithmic-ai-bias.html'>a</a> <a href='https://www.wgu.edu/blog/women-tech-addressing-gender-bias2002.html'>bias</a> <a href='https://www.forbes.com/sites/marenbannon/2019/04/10/the-biggest-bias-in-tech-that-no-one-talks-about/'>problem</a>.  
+You've probably seen the news. <a href='https://edition.cnn.com/2020/08/23/tech/algorithms-bias-inequality-intl-gbr/index.html'>Tech</a> <a href='https://edition.cnn.com/2020/09/21/tech/twitter-racial-bias-preview/index.html'>has</a> <a href='https://www.nytimes.com/2019/11/15/technology/algorithmic-ai-bias.html'>a</a> <a href='https://www.wgu.edu/blog/women-tech-addressing-gender-bias2002.html'>bias</a> <a href='https://www.forbes.com/sites/marenbannon/2019/04/10/the-biggest-bias-in-tech-that-no-one-talks-about/'>problem</a>.
 
+It shouldn't surprise you that many of these biases have existed long before everyone thought using algorithms to determine where British children would be placed for further studies was a good idea. What is surprising is the blind trust in these new algorithmic tools to be paragons of fairness given that they're trained using data that our biased systems have produced. Given that pretty much all data should be assumed to have one bias or another, it seems critical for Data Analysts and Data Scientists to be aware of how to include bias correction in their work-flow. 
 
+One very low hanging fruit in bias correction should be to foster collaboration and interaction with subject matter experts from early on in the process. After all a sociologist will tie in a host of socio-economic factors to why a pupil is underperforming according to algorithm A and this should lead the designers to iteratively improve the algorithm's predictive ability to take into account these factors.
 
-
+Over the next couple of blog posts, I hope to run a journal club excercise (of one) on a review article published by Maarten Buyl and Tijl De Bie on 6th March 2020 in <a href='https://arxiv.org/pdf/2002.11442.pdf'>arxiv</a> regarding a method for building a less biased predictor. In the article, the authors give an overview of more technical strategies for bias correction including: 
+<li> Preprocessing techniques: modification of training data so as to reduce bias. Resource intensive </li>
+<li> Algorithmic fairness.  Reducing the risk of bias affecting the model.</li>
+<li> Postprocessing techniques: involves correcting a model's output probabilities given a specific fairness constraint. Can affect model accuracy. </li>
 
 
 
