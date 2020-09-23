@@ -7,7 +7,7 @@ It shouldn't surprise you that many of these biases have existed long before eve
 
 One very low hanging fruit in bias correction should be to foster collaboration and interaction with subject matter experts from early on in the process. A sociologist will (hopefully) tie in a host of socio-economic factors to why a pupil is underperforming according to algorithm A. This should lead the designers to iteratively improve the algorithm's predictive ability to take into account these factors.
 
-Over the next couple of blog posts, I hope to run a journal club exercise (of one) on a review article published by Maarten Buyl and Tijl De Bie on 6th March 2020 in <a href='https://arxiv.org/pdf/2002.11442.pdf'>arxiv</a> regarding a method for building a less biased predictor. In the article, the authors provide an overview of more technical strategies for bias correction (with a **focus on the second one**) including: 
+Over the next couple of posts, I hope to run a journal club exercise (of one) on a review article published by Maarten Buyl and Tijl De Bie on 6th March 2020 in <a href='https://arxiv.org/pdf/2002.11442.pdf'>arxiv</a> regarding a method for building a less biased predictor. In the article, the authors provide an overview of more technical strategies for bias correction (with a **focus on the second one**) including: 
 <li> Preprocessing techniques: modification of training data so as to reduce bias. Resource intensive </li>
 <li> Algorithmic fairness.  Reducing the risk of bias affecting the model.</li>
 <li> Postprocessing techniques: involves correcting a model's output probabilities given a specific fairness constraint. Can affect model accuracy. </li>
