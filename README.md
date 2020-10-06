@@ -1,3 +1,20 @@
+# Debiasing Biased Data: Pt. 2
+
+<h3> Network Embeddings & Conditional Network Embeddings </h3>
+  Buyl et al propose that focusing on algorithmic fairness is a more efficient way to train models on biased data. The authors focus on network embeddings which are similar to word embeddings commonly used in Natural Language Processing. Chang et al have a deep dive into the workings of network embeddings when it comes to biomedical data. In brief, a biomedical object (eg. drug, protein etc) is mapped onto a node which is in turn mapped onto a network in multi-dimensional space. Similar nodes are mapped onto nearby points which is very useful for classification and clustering.
+  Kang et al describe conditional network embeddings as refined network embeddings which take into account prior knowledge about the structural properties of a network. Buyl et al describe some common types of prior knowledge:
+* Knowledge of network density
+* Knowledge of node degrees (number of connections one node has to other nodes) 
+* Knowledge of edge (relationships between nodes) density 
+  Buyl et al go a step further in adapting the conditional network embedding by weighting data that might lead to discrimination more heavily. This ensures that the embedding takes into account the underlying bias in the data regardless of whether the prior takes into account this knowledge. 
+This emphasis on adding a probabilistic view to the model ensures that the person building the model doesn't take the data at face value. 
+
+<h4> References: </h4>
+- Buyl, M., & Bie, T.D. (2020). DeBayes: a Bayesian method for debiasing network embeddings. ArXiv, abs/2002.11442.
+- Kang, B., Lijffijt, J., & Bie, T.D. (2019). Conditional Network Embeddings. ArXiv, abs/1805.07544.
+- Chang, S., Tong, J., Zhu, Y., Cui, P. & Wang, F. Network embedding in biomedical data science. Briefings in Bioinformatics, Volume 21, Issue 1, January 2020, Pages 182–197
+- Degree Distribution. (2020 June 8). In Wikipedia. https://en.wikipedia.org/wiki/Degree_distribution
+
 # Debiasing Biased Data: Pt. 1
 
 <h3> Introduction </h3>
@@ -12,6 +29,8 @@ Over the next couple of posts, I hope to run a journal club exercise (of one) on
 <li> Algorithmic fairness.  Reducing the risk of bias affecting the model.</li>
 <li> Postprocessing techniques: involves correcting a model's output probabilities given a specific fairness constraint. Can affect model accuracy. </li>
 
+<h4> Reference: </h4>
+- Buyl, M., & De Bie, T. (2020). DeBayes : a Bayesian method for debiasing network embeddings.
 
 
 # <a href='https://github.com/1njiku/SB-Capstone2/blob/master/Project-Proposal%20.pdf'>Capstone Project</a>
