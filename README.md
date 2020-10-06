@@ -3,21 +3,20 @@
 <h3> Network Embeddings & Conditional Network Embeddings </h3>
   Buyl et al propose that focusing on algorithmic fairness is a more efficient way to train models on biased data. The authors focus on network embeddings which are similar to word embeddings commonly used in Natural Language Processing. Chang et al have a deep dive into the workings of network embeddings when it comes to biomedical data. In brief, a biomedical object (eg. drug, protein etc) is mapped onto a node which is in turn mapped onto a network in multi-dimensional space. Similar nodes are mapped onto nearby points which is very useful for classification and clustering.
   Kang et al describe conditional network embeddings as refined network embeddings which take into account prior knowledge about the structural properties of a network. Buyl et al describe some common types of prior knowledge:
-<ol>
-1. Knowledge of network density
-2. Knowledge of node degrees (number of connections one node has to other nodes) 
-3. Knowledge of edge (relationships between nodes) density 
-</ol>
+
+<li> Knowledge of network density </li>
+<li> Knowledge of node degrees (number of connections one node has to other nodes)</li>
+<li> Knowledge of edge (relationships between nodes) density </li>
+
   Buyl et al go a step further in adapting the conditional network embedding by weighting data that might lead to discrimination more heavily. This ensures that the embedding takes into account the underlying bias in the data regardless of whether the prior takes into account this knowledge. 
 This emphasis on adding a probabilistic view to the model ensures that the person building the model doesn't take the data at face value. 
 
 <h4> References: </h4>
-<li>
-- Buyl, M., & Bie, T.D. (2020). DeBayes: a Bayesian method for debiasing network embeddings. ArXiv, abs/2002.11442.
-- Kang, B., Lijffijt, J., & Bie, T.D. (2019). Conditional Network Embeddings. ArXiv, abs/1805.07544.
-- Chang, S., Tong, J., Zhu, Y., Cui, P. & Wang, F. Network embedding in biomedical data science. Briefings in Bioinformatics, Volume 21, Issue 1, January 2020, Pages 182–197
-- Degree Distribution. (2020 June 8). In Wikipedia. https://en.wikipedia.org/wiki/Degree_distribution
-</li>
+  * Buyl, M., & Bie, T.D. (2020). DeBayes: a Bayesian method for debiasing network embeddings. ArXiv, abs/2002.11442.
+  * Kang, B., Lijffijt, J., & Bie, T.D. (2019). Conditional Network Embeddings. ArXiv, abs/1805.07544.
+  * Chang, S., Tong, J., Zhu, Y., Cui, P. & Wang, F. Network embedding in biomedical data science. Briefings in Bioinformatics, Volume 21, Issue 1, January 2020, Pages 182–197
+  * Degree Distribution. (2020 June 8). In Wikipedia. https://en.wikipedia.org/wiki/Degree_distribution
+
 
 
 # Debiasing Biased Data: Pt. 1
