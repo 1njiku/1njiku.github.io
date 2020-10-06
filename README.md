@@ -7,7 +7,7 @@ Buyl et al propose that focusing on algorithmic fairness is a more efficient way
 Kang et al describe conditional network embeddings as refined network embeddings which take into account prior knowledge about the structural properties of a network. Buyl et al describe some common types of prior knowledge:  
 <li> Knowledge of network density </li>
 <li> Knowledge of node degrees (number of connections one node has to other nodes)</li>
-<li> Knowledge of edge (relationships between nodes) density </li>  
+<li> Knowledge of edge (relationships between nodes) density </li>
 
 Buyl et al go a step further in adapting the conditional network embedding by weighting data that might lead to discrimination more heavily. This ensures that the embedding takes into account the underlying bias in the data regardless of whether the prior takes into account this knowledge. 
 This emphasis on adding a probabilistic view to the model ensures that the person building the model doesn't take the data at face value. 
