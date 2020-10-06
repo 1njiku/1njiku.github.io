@@ -12,10 +12,10 @@
 This emphasis on adding a probabilistic view to the model ensures that the person building the model doesn't take the data at face value. 
 
 <h4> References: </h4>
-  * Buyl, M., & Bie, T.D. (2020). DeBayes: a Bayesian method for debiasing network embeddings. ArXiv, abs/2002.11442.
-  * Kang, B., Lijffijt, J., & Bie, T.D. (2019). Conditional Network Embeddings. ArXiv, abs/1805.07544.
-  * Chang, S., Tong, J., Zhu, Y., Cui, P. & Wang, F. Network embedding in biomedical data science. Briefings in Bioinformatics, Volume 21, Issue 1, January 2020, Pages 182–197
-  * Degree Distribution. (2020 June 8). In Wikipedia. https://en.wikipedia.org/wiki/Degree_distribution
+  *Buyl, M., & Bie, T.D. (2020). DeBayes: a Bayesian method for debiasing network embeddings. ArXiv, abs/2002.11442.
+  *Kang, B., Lijffijt, J., & Bie, T.D. (2019). Conditional Network Embeddings. ArXiv, abs/1805.07544.
+  *Chang, S., Tong, J., Zhu, Y., Cui, P. & Wang, F. Network embedding in biomedical data science. Briefings in Bioinformatics, Volume 21, Issue 1, January 2020, Pages 182–197
+  *Degree Distribution. (2020 June 8). In Wikipedia. https://en.wikipedia.org/wiki/Degree_distribution
 
 
 
